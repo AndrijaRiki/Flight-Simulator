@@ -271,6 +271,29 @@ Click Start Simulation
 
 ---
 
+---
+
+# Testing Files
+
+> [!NOTE]
+> All files required for testing the application and simulation are included in the repository.
+
+The `test_data/` directory contains:
+
+- `airports.csv` — sample airport data
+- `flights.csv` — sample flight schedule
+- additional test scenarios for simulation
+
+These files can be loaded directly through:
+
+```txt
+File → Import CSV
+```
+
+and are recommended for quick testing of all application features.
+
+---
+
 # Conclusion
 
 This project demonstrates a complete object-oriented implementation of a **real-time air traffic simulation system** in Java.
