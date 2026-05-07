@@ -273,7 +273,12 @@ Click Start Simulation
 
 ---
 
+---
+
 # Testing Files
+
+> [!IMPORTANT]
+> **Execution Tip:** The main entry point of the application is located in the `gui` package. The simulation is started by running the **`Scene.java`** file.
 
 > [!NOTE]
 > All files required for testing the application and simulation are included in the repository.
@@ -285,7 +290,6 @@ The `test_data/` directory contains:
 - additional test scenarios for simulation
 
 These files can be loaded directly through:
-
 ```txt
 File → Import CSV
 ```
